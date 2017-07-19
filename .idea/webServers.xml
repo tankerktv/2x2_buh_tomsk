@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="06eee2c8-37bb-4af7-b677-79affe0793ff" name="2x2buh" url="http://tankerktv.ddns.net/2x2buh">
+        <fileTransfer port="0" mountedRoot="D:\WebServer\htdocs\2x2buh" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
