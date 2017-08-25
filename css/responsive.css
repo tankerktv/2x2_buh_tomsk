@@ -155,6 +155,9 @@
 		line-height: 35px;
 		width: 130px;
 	}
+	.caption .btn-start {
+		margin-top: 10px;
+	}
 	.single-table ul {
 		margin-top: 22px;
 	}
