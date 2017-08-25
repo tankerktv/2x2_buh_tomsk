@@ -43,6 +43,7 @@
 	#home-slider .caption {
 		font-size: 15px;
 		padding: 0 30px;
+		top: 30%;
 	}
 	.left-control, .right-control {
 		font-size: 20px;
@@ -62,6 +63,9 @@
 	}
 	.navbar-brand {
 		padding: 0 15px 15px;
+	}
+	.navbar-brand img {
+		max-width: 70%;
 	}
 	.navbar-toggle {
 	  border:1px solid #fff;
@@ -146,8 +150,8 @@
 		margin-top: 25px;
 	}
 	.price {
-		font-size: 18px;
-		height: 110px;
+		font-size: 26px;
+		/*height: 110px;*/
 		line-height: 35px;
 		width: 130px;
 	}
