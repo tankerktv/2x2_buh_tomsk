@@ -11,7 +11,7 @@
   <link href="css/font-awesome.min.css" rel="stylesheet">
   <link href="css/lightbox.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link id="css-preset" href="css/presets/preset4.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset3.css" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
@@ -30,6 +30,25 @@
   <!--/.preloader-->
 
   <header id="home">
+  
+  <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/first_bg.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Как <span>Дважды Два</span></h1>
+            <h2 class="animated fadeInRightBig">Бухгалтерское обслуживание</h2>
+            <p class="animated fadeInLeftBig">Получайте удовольствие от бизнеса, а скучными отчетами займемся мы</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Как это работает</a>
+          </div>
+        </div>
+      </div>
+      <!--<a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>-->
+
+      <a id="tohash" href="#team"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+  
 	<nav class="navbar navbar-fixed-top">
 	 <div class="main-nav">
       <div class="container">
@@ -46,10 +65,10 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right"> 
-			<li class="scroll active"><a href="#hh">О Нас</a></li> 
+			<li class="scroll"><a href="#team">О Нас</a></li>
+            <li class="scroll"><a href="#pricing">Цены</a></li>
             <li class="scroll"><a href="#services">Как Это Работает</a></li>                      
             <li class="scroll"><a href="#features">Наши Преимущества</a></li>
-			<li class="scroll"><a href="#pricing">Цены</a></li>
             <li class="scroll"><a href="#contact">Контакты</a></li>       
           </ul>
         </div>
@@ -59,12 +78,33 @@
 	
   </header><!--/#home-->
   
-<section id="team">
+<section id="team" style="padding-top:100px;">
     <div class="container">
       <div class="row">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
           <h2>О Нас</h2>
-          <p>Мы бухгалтерская фирма оказывающая весь спектр бухгалтерских услуг. Заключая договор с нами, вы получаете полноценного челна своей команды, настроенного на получение максимальной прибыли. Мы заинтересованы чтоб бизнес наших клиентов процветал.</p>
+          <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="row count">
+              <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <i class="fa fa-book"></i>
+                <h3>480</h3>
+                <p>Отчетов сдано 2016 г.</p>
+              </div>
+              <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+                <i class="fa fa-check"></i>
+                <h3>15/2</h3>
+                <p>Камеральных и выездных
+                  налоговых проверок за 2016г.
+                  успешно пройдено.</p>
+              </div>
+              <div class="col-sm-4 col-xs-4 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+                <i class="fa fa-users"></i>
+                <h3>12,8</h3>
+                <p>Средний стаж наших
+                  сотрудников</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="team-members">
@@ -72,87 +112,154 @@
           <div class="col-md-4 col-md-offset-4">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="member-image">
-                <img class="img-responsive" src="images/team/man.png" alt="">
+                <img class="img-responsive" src="images/team/kseniya_g.png" alt="">
               </div>
               <div class="member-info">
-                <h3>Горкольцева Ксения</h3>
-                <h4>Наш Локомотив</h4>
-                <p></p>
+                <h3>Горкольцева Ксения Владимировна</h3>
+                <h4>Директор Как Дважды Два</h4>
+
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-2 col-lg-offset-1">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/man.png" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Елена</h3>
-                <h4>Бухгалтер</h4>
-                <p>Специалист по первичным документам</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/man.png" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Виталий</h3>
-                <h4>Бухгалтер</h4>
-                <p>Гуру налоговых проверок</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-2">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/man.png" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Сергей</h3>
-                <h4>Программист</h4>
-                <p>Ас в программировании 1с, может придумать и внедрить любой отчет</p>
-              </div>
-            </div>
-          </div>
-		  <div class="col-md-2 ">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1400ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/man.png" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Ольга</h3>
-                <h4>Кадровая Служба</h4>
-                <p>Знает, как оформить любые кадровые документы и локальные нормативные акты</p>
-              </div>
-            </div>
-          </div>
-		  <div class="col-md-2">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1700ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/man.png" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Ирина</h3>
-                <h4>Юрист</h4>
-                <p>Имеет в своем активе не одно выигранное дело по возврату денежных средств от должников</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>            
+
+      </div>
+      <p style="text-align: center;">Мы приветствуем Вас, пришедших по делу и просто
+        заглянувших!
+        Мы молоды, но амбициозны и профессиональны. И так
+        как мы молоды, нам приходится работать старательнее и
+        больше, чем другим. Именно по этому, ни один Ваш
+        вопрос, даже самый неожиданный, не останется без
+        нашего пристального профессионального внимания
+        Развитие нашей организации зависит от процветания
+        наших клиентов, работая с нами, Вы получаете
+        полноценного члена своей команды в нашем лице.
+        Если Вы только начинаете свой путь в бизнесе, мы
+        поможем Вам выбрать оптимальную систему
+        налогообложения и разобраться с первичными
+        документами, необходимыми для вашего вида
+        деятельности. Если Ваша организация с большим
+        бухгалтерским прошлым, мы сделаем бухгалтерию
+        понятной для Вас, проверим бухгалтерские базы и при
+        необходимости наведем в них порядок
+        Мы ценим Ваше время и придерживаемся строгих
+        требований конфиденциальности.</p>
     </div>
   </section><!--/#team-->
-  
-   
+
+  <section id="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Цены</h2>
+
+        </div>
+      </div>
+      <div class="pricing-table">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <h3>Сдача "Нулёвок"</h3>
+              <div class="price">
+                2000₽<span>/Месяц</span>
+              </div>
+              <br>
+              <p>Для организаций, не
+                ведущих финансово
+                хозяйственную
+                деятельность</p>
+              <p>(не имеющих движений по
+                р/сч и кассе)</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <h3>Бухгалтерское обслуживание</h3>
+              <div class="price">
+                3000₽<span>/Месяц</span>
+              </div>
+              <br>
+              <p>УСНО "Доходы", ЕНВД без
+                сотрудников</p>
+              <p>разнесение документов</p>
+              <p>формирование и сдача
+                отчетности</p>
+              <p>формирование платежек по налогам</p>
+              <p>консультирование по налогам и бухгалтерскому обслуживанию</p>
+            </div>
+
+          </div>
+          <div class="col-sm-4">
+            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <h3>Бухгалтерское обслуживание</h3>
+              <div class="price">
+                4000₽<span>/Месяц</span>
+              </div>
+              <br>
+              <p>УСНО "Доходы уменьшенные на величину расходов" без сотрудников</p>
+              <p>разнесение документов</p>
+              <p>формирование и сдача отчетности</p>
+              <p>формирование платежек по налогам</p>
+              <p>консультирование по налогам и бухгалтерскому обслуживанию</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <h3>Бухгалтерское обслуживание</h3>
+              <div class="price">
+                5000₽<span>/Месяц</span>
+              </div>
+              <br>
+              <p>УСНО "Доходы", ЕНВД до 5 сотрудников</p>
+              <p>разнесение документов</p>
+              <p>формирование и сдача отчетности</p>
+              <p>формирование платежек по налогам</p>
+              <p>кадровые документы, расчет заработной платы</p>
+              <p>консультирование по налогам и бухгалтерскому обслуживанию</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <h3>Бухгалтерское обслуживание</h3>
+              <div class="price">
+                6000₽<span>/Месяц</span>
+              </div>
+              <br>
+              <p>ОСН без работников</p>
+              <p>разнесение документов</p>
+              <p>формирование и сдача отчетности</p>
+              <p>формирование платежек по налогам</p>
+              <p>консультирование по налогам и бухгалтерскому обслуживанию</p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="600ms">
+              <h3>Бухгалтерское обслуживание</h3>
+              <div class="price">
+                10000₽<span>/Месяц</span>
+              </div>
+              <br>
+              <p>ОСН до 5 сотрудников</p>
+              <p>разнесение документов</p>
+              <p>формирование и сдача отчетности</p>
+              <p>формирование платежек по налогам</p>
+              <p>кадровые документы, расчет заработной платы</p>
+              <p>консультирование по налогам и бухгалтерскому обслуживанию</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 style="text-align: center">Сложно выбрать? Позвоните нам т. 97-96-74. Запишитесь на бесплатную консультацию. Мы поможем Вам подобрать идеальный вариант исходя из вашего бюджета.</h3>
+    </div>
+
+  </section><!--/#pricing-->
   
   <section id="services">
     <div class="container">
-      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
         <div class="row">
           <div class="text-center col-sm-8 col-sm-offset-2">
             <h2>Как это работает</h2>
@@ -161,36 +268,47 @@
       </div>
       <div class="text-center our-services">
         <div class="row">
-          <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <div class="col-sm-2 col-sm-offset-1 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <div class="service-icon">
-              <i class="fa fa-flask"></i>
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="service-info">
+              <h3>Звонок</h3>
+              <p>Позвонив нам, Вы получаете первую бесплатную консультацию</p>
+            </div>
+          </div>
+          <div class="col-sm-2 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="fa fa-pencil"></i>
             </div>
             <div class="service-info">
               <h3>Договор</h3>
               <p>Вы заключаете с нами договор на бухгалтерское обслуживание</p>
             </div>
           </div>
-          <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+          <div class="col-sm-2 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
             <div class="service-icon">
-              <i class="fa fa-umbrella"></i>
+              <i class="fa fa-eye"></i>
             </div>
             <div class="service-info">
               <h3>Дальше Сами</h3>
               <p>Мы берем на себя бухгалтерию, обслуживание расчетного счета, ведем кадры, общаемся с контролирующими органами, помогаем в решении юридических вопросов, помогаем в настройке управленческого учета</p>
             </div>
           </div>
-          <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+
+
+          <div class="col-sm-2 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
             <div class="service-icon">
-              <i class="fa fa-cloud"></i>
+              <i class="fa fa-users"></i>
             </div>
             <div class="service-info">
               <h3>Организовываем</h3>
               <p>Заводим для вашей организации бухгалтерскую программу 1с в облачном сервисе, подключаем к сдаче отчетности в электронном виде. Предоставляем вашим пользователям доступ в программу.</p>
             </div>
           </div>
-		  <div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+          <div class="col-sm-2 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
             <div class="service-icon">
-              <i class="fa fa-cloud"></i>
+              <i class="fa fa-newspaper-o"></i>
             </div>
             <div class="service-info">
               <h3>Результат</h3>
@@ -207,7 +325,7 @@
 
 
 
-  <section id="features" class="parallax">
+  <section id="features">
     <div class="container">
 	<div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
         <div class="row">
@@ -220,20 +338,20 @@
         <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
           <i class="fa fa-user"></i>
           <h3>Гарантия</h3>
-          <p>Мы несем полную ответственность за выполненные работы и отвечаем за отсутствие проблем с налоговой</p>
+          <p>Если по нашей вине на Вашу организацию накладывают штраф, мы выплачиваем его из  собственных средств</p>
         </div>
         <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <i class="fa fa-desktop"></i>
+          <i class="fa fa-thumbs-up"></i>
           <h3>Качество</h3>                    
-          <p>Наши сотрудники постоянно обучаются и в курсе всех последних изменений законодательства</p>
+          <p>Один бухгалтер может упустить детали и решить бизнес-задачи однобоко В вашем распоряжении целая команда опытных бухгалтеров, ежедневно решающих разноплановые задачи</p>
         </div> 
         <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-          <i class="fa fa-trophy"></i>
+          <i class="fa fa-money"></i>
           <h3>Выгода</h3>                    
           <p>Заключая договор с нами, вы экономите на организации рабочего места бухгалтера, вам не надо платить ему отпускные и больничные</p>
         </div> 
         <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <i class="fa fa-comment-o"></i>                    
+          <i class="fa fa-cloud"></i>
           <h3>Доступность</h3>
           <p>Мы работаем в облачном сервисе, что позволяет вам осуществлять контроль из любой точки мира</p>
         </div>                 
@@ -241,92 +359,7 @@
     </div>
   </section><!--/#features-->
 
-  <section id="pricing">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Цены</h2>
 
-        </div>
-      </div>
-      <div class="pricing-table">
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h3>Нулевая отчётность</h3>
-              <div class="price">
-                2000₽
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h3>ИП и ООО УСН доходы и ЕНВД без работников</h3>
-              <div class="price">
-                3000₽
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <h3>ИП и ООО УСН доходы и ЕВД до 5 сотрудников</h3>
-              <div class="price">
-                5000₽<span>/Месяц</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="600ms">
-              <h3>ИП и ООО УСН доходы уменьшенные на величину расходов до 5 сотрудников</h3>
-              <div class="price">
-                7000₽
-              </div>
-            </div>
-          </div>
-        </div>
-		<div class="row">
-          <div class="col-sm-6">
-            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="900ms">
-              <h3>ИП и ООО ОСН без сотрудников</h3>
-              <div class="price">
-                5000₽
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="900ms">
-              <h3>ИП и ООО ОСН до 5 сотрудников</h3>
-              <div class="price">
-                10000₽
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="single-table wow flipInX" data-wow-duration="1000ms" data-wow-delay="1200ms">
-              <h3>Подключение ваших сотрудников к облачному сервису 1С</h3>
-              <div class="price">
-                700₽
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <p>При заключении договора 2 часа консультаций в месяц бесплатно. Консультирование свыше 2
-
-            часов 500₽</p>
-          <p>Цены могут быть пересмотрены по согласованию сторон в сторону уменьшения если какие то
-
-            функции вы берете на себя. И в сторону увеличения если у вас есть филиалы или у вас большой
-
-            документооборот</p>
-        </div>
-      </div>
-    </div>
-  </section><!--/#pricing-->
 
   <section id="contact">
     <!--<div id="google-map" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div>-->
@@ -344,20 +377,20 @@
                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Как Вас зовут?" required="required">
+                      <input name="name" class="form-control" placeholder="Как Вас зовут?" required>
                     </div>
                   </div>
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Ваш E-Mail" required="required">
+                      <input type="email" name="email" class="form-control" placeholder="Ваш E-Mail" required>
                     </div>
                   </div>
                 </div>
                 <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Сообщение..." required="required"></textarea>
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Сообщение..." required></textarea>
                 </div>                        
                 <div class="form-group">
-                  <button type="submit" class="btn-submit">Отправить</button>
+                  <button class="btn-submit">Отправить</button>
                 </div>
               </form>   
             </div>

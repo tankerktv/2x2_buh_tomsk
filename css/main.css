@@ -8,9 +8,9 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #666;
-  background-color: #fff;
-  padding-top: 100px; 
+  background-color: #fff; 
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #333;
@@ -26,6 +26,10 @@ h2 {
 
 h3 {
   font-size: 18px;
+}
+
+.navbar-brand {
+  padding: 7px 15px;
 }
 
 .parallax {
@@ -151,6 +155,12 @@ section {
   margin-bottom: 30px;
 }
 
+#home-slider .caption h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
 .caption .btn-start {
   color: #fff;
   font-size: 14px;
@@ -215,7 +225,6 @@ section {
   text-align: center;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -495,6 +504,9 @@ section {
 #team {
   padding-top: 0;
 }
+#team i {
+  font-size: 48px;
+}
 
 .team-members {
   margin-bottom: 25px;
@@ -580,7 +592,6 @@ section {
 **************************/
 #features {
   text-align: center;
-  background-image: url(../images/features_bg.jpg);
 }
 
 #features i {
@@ -591,7 +602,6 @@ section {
   margin-top: 15px;
   font-size: 30px;
   margin-bottom: 7px;
-  color: #fff;
 }
 
 #features .slider-overlay {
@@ -609,6 +619,7 @@ section {
 .single-table {
   padding: 30px 20px 20px;
   border:1px solid #f2f2f2;
+  height: 400px;
 }
 
 .single-table h3 {
@@ -831,7 +842,8 @@ section {
 
 .btn-loadmore {
   border: 1px solid #f2f2f2;
-  color: #fff;
+  color: #333;
+  background: #fff;
   font-size: 14px;
   font-weight: 600;
   padding: 15px 125px;
@@ -845,7 +857,7 @@ section {
 }
 
 .btn-loadmore:visited {
-	color: #fff;
+	/*(color: #fff;*/
 }
 
 /*************************
@@ -893,7 +905,6 @@ textarea.form-control {
 }
 
 ul.address {
-  margin-top: 30px;
   list-style: none;
   padding: 0;
   margin: 0;
